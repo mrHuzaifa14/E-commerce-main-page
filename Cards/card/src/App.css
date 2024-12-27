@@ -1,0 +1,42 @@
+/* src/App.css */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.product-title {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 10px 0;
+}
+
+.product-rating {
+  color: #f39c12;
+}
+/* Navbar Styling */
